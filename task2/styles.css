@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.stopwatch {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to make content more readable */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}   
+
+.display {
+    margin-bottom: 20px;
+}
+
+.display #display {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.controls button#lapButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.controls button#lapButton:hover {
+    background-color: #45a049;
+}
+
+ul#laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+}
